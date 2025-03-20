@@ -381,3 +381,10 @@ SELECT * FROM students;
 
 DELETE FROM students 
     WHERE grade = 'B';
+
+
+-- UPDATE
+
+UPDATE students
+    SET email ='default@gmail.com', age =22
+    WHERE student_id = 1;
